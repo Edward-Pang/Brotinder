@@ -51,8 +51,8 @@ body{
 /* Iphone Pic */
 .img1{
   transform: rotate(20deg);
-  width: 60%;
-  margin-left: 20%
+  width: 70%;
+  margin-left: 20%;
 }
 /* Download Buttons */
 .dl-btn{
@@ -62,20 +62,24 @@ body{
 h3{
   font-family: 'Montserrat',sans-serif;
   font-weight: 900;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin: 5% 5%;
 }
 
 /* Features */
 
 #features{
+  text-align: center;
+  background-color: white;
+  z-index: 1;
 }
 .col-lg-3{
-  text-align: center;
 }
 
 .feat{
-  margin: 5% 4%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
 }
 
 .icon{
@@ -90,19 +94,9 @@ h3{
 p{
   color: #8f8f8f;
   text-align: center;
+  font-size: 1.5rem;
 }
 
-/* Testimonials section*/
-#testimonials{
-
-  text-align: center;
-  background-color: #ef9172;
-  color: white;
-}
-
-.carousel-item{
-    padding: 5% 15%;
-}
 h2{
   text-align: center;
   font-family: 'Montserrat',sans-serif;
@@ -114,6 +108,28 @@ h3{
   text-align: center;
   padding-top: 1rem;
 }
+
+/* Testimonials section*/
+#testimonials{
+
+  text-align: center;
+  background-color: #ef9172;
+  color: white;
+}
+
+.carousel-item{
+  padding: 5% 15%;
+}
+
+.carousel-indicators{
+  width: 65%;
+}
+.carousel-icon{
+  width: 200px;
+  height: 75px;
+
+}
+
 .test-img-size{
   width: 25%;
   border-radius: 100%;
@@ -153,4 +169,5 @@ h3{
 }
 
 .btn-foot{
+  margin-top: 0;
 }
