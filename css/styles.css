@@ -1,0 +1,156 @@
+
+h1 {
+  font-family:'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin-right: 0;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  padding-top: 4.5rem;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/* Navigation Bar*/
+.navbar{
+  background-color: #ff4c68;
+  padding:4px 0;
+
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 15%;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+.nav-item{
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 0 18px;
+  margin-left: auto;
+}
+
+.navbar-collapse{
+  margin-right: 1rem;
+}
+.navbar-toggler{
+  margin-right: 1rem;
+}
+
+/* Iphone Pic */
+.img1{
+  transform: rotate(20deg);
+  width: 60%;
+  margin-left: 20%
+}
+/* Download Buttons */
+.dl-btn{
+  margin: 3% 3% 5% 0%;
+}
+
+h3{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin: 5% 5%;
+}
+
+/* Features */
+
+#features{
+}
+.col-lg-3{
+  text-align: center;
+}
+
+.feat{
+  margin: 5% 4%;
+}
+
+.icon{
+  font-size: 4rem;
+  color: #ef9172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+p{
+  color: #8f8f8f;
+  text-align: center;
+}
+
+/* Testimonials section*/
+#testimonials{
+
+  text-align: center;
+  background-color: #ef9172;
+  color: white;
+}
+
+.carousel-item{
+    padding: 5% 15%;
+}
+h2{
+  text-align: center;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+h3{
+  text-align: center;
+  padding-top: 1rem;
+}
+.test-img-size{
+  width: 25%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+.linda{
+  width:22%;
+}
+
+#press{
+  background-color: #ef9172;
+  text-align: center;
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+.signup{
+  margin-left: 12.5%;
+  width: 75%;
+}
+
+#pricing{
+  padding: 100px;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.spacer{
+  color: white;
+  visibility: hidden;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.btn-foot{
+}
