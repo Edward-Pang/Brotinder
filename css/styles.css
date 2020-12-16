@@ -14,7 +14,7 @@ p{
 
 
 /* Headers Section */
-h1 h2 h3 h4 h5 h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family:'Montserrat', sans-serif;
     font-weight: 900;
 }
@@ -27,6 +27,8 @@ h2{
 h3{
 
   padding-top: 1rem;
+  font-size: 2rem;
+  margin: 5% 5%;
 }
 
 .big-header{
@@ -36,9 +38,19 @@ h3{
   font-weight: 900;
 }
 
+/* Sections Attributes */
+
+.white-bg{
+
+}
+
+.color-bg{
+  background-color: #ff4c68;
+  color: white;
+}
+
 /* Navigation Bar*/
 .navbar{
-  background-color: #ff4c68;
   padding:4px 0;
 
 }
@@ -65,8 +77,6 @@ h3{
 }
 
 #title {
-  background-color: #ff4c68;
-  color: white;
   padding-top: 4.5rem;
   text-align: left;
 }
@@ -102,22 +112,14 @@ h3{
 }
 
 /* Download Buttons */
+
 .dl-btn{
   margin: 3% 3% 5% 0%;
-}
-
-h3{
-  font-family: 'Montserrat',sans-serif;
-  font-weight: 900;
-  font-size: 2rem;
-  margin: 5% 5%;
 }
 
 /* Features */
 
 #features{
-
-  background-color: white;
   z-index: 1;
   position: relative;
 }
@@ -145,7 +147,6 @@ h3{
 #testimonials{
 
   background-color: #ef9172;
-  color: white;
 }
 
 .carousel-item{
@@ -171,6 +172,8 @@ h3{
   width:22%;
 }
 
+/* Press Section */
+
 #press{
   background-color: #ef9172;
 }
@@ -183,6 +186,8 @@ h3{
   width: 75%;
 }
 
+/* Pricing Section */
+
 #pricing{
   padding: 100px;
 }
@@ -194,10 +199,9 @@ h3{
   visibility: hidden;
 }
 
+/* Call To Action Section */
 #cta{
-  background-color: #ff4c68;
-  color: white;
-  padding: 10px 10% 10px;
+  padding: 10% 10%;
 }
 .cta-header{
   font-size: 3rem;
@@ -209,6 +213,7 @@ h3{
 /* Footer Section */
 #footer{
   font-family: 'Montserrat', sans-serif;
+  padding:10% 5% 0;
 }
 .icon-contact {
   margin: 7% 1% 2%;
